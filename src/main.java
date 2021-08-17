@@ -3,12 +3,12 @@ public class Main {
 
 	public static void main(String[] args) {
 	  Cliente paulo = new Cliente();
-	  paulo.setNome("Paulo");
+	  paulo.setNome("Guilherme");
 	  
 		
 		
-      Conta cc = new ContaCorrente(paulo);
-      Conta poupanca = new ContaPoupanca(paulo);
+      Conta cc = new ContaCorrente(Guilherme);
+      Conta poupanca = new ContaPoupanca(Guilherme);
       
       cc.depositar(100);
       cc.transferir(100, poupanca);
